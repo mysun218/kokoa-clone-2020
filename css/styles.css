@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
-@import "index-header.css";
-@import "login-form.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/index-header.css";
+@import "screens/login-form.css";
 
 body {
   font-family: "Dancing Script", cursive;

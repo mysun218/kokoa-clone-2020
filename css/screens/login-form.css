@@ -31,15 +31,6 @@
   border-radius: 5px;
 }
 
-#login-form button {
-  background-color: var(--yellow);
-  border: none;
-  padding: 20px 0px;
-  font-size: 18px;
-  margin-bottom: 25px;
-  border-radius: 5px;
-}
-
 #login-form a {
   text-align: center;
   text-decoration: none;
