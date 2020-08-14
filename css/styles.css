@@ -6,11 +6,22 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/index-header.css";
 @import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Dancing Script", cursive;
+  color: #2e363e;
+  height: 200vh;
+}
+
+.main-screen {
+  padding: 10px var(--horizontal-space);
 }

@@ -16,4 +16,21 @@
 
 .nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  right: -10px;
+  bottom: 15px;
+}
+
+.nav__changes {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  left: 32px;
 }

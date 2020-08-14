@@ -1,0 +1,31 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 25px 20px 25px;
+  align-items: center;
+}
+
+.screen-header__title {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+/* 찾기 음악 설정 구현 x 틀만 만듦. */
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__cog {
+  width: 6px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  background-color: tomato;
+  right: -5px;
+  top: -10px;
+}
